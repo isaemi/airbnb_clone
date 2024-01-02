@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build":  "prisma generate && next build",
     "start": "next start",
     "lint": "next lint",
     "lint:watch": "esw --watch --ext .js,.jsx,.ts,.tsx .",
     "prisma:generate": "prisma generate"
+    
     
   },
   "dependencies": {
