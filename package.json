@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lint:watch": "esw --watch --ext .js,.jsx,.ts,.tsx ."
+    "lint:watch": "esw --watch --ext .js,.jsx,.ts,.tsx .",
+    "prisma:generate": "prisma generate"
+    
   },
   "dependencies": {
     "@next-auth/prisma-adapter": "^1.0.7",
