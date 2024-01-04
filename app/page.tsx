@@ -1,3 +1,4 @@
+export const dynamic ='auto';
 import Container from "@/app/components/Container";
 import ListingCard from "@/app/components/listings/ListingCard";
 import EmptyState from "@/app/components/EmptyState";
@@ -5,6 +6,7 @@ import EmptyState from "@/app/components/EmptyState";
 import ClientOnly from "./components/ClientOnly";
 import getListings, { IListingsParams } from "./actions/getListings";
 import getCurrentUser from "@/app/actions/getCurrentUser";
+
 
 
 
